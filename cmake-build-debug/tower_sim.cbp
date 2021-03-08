@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tower_sim"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\Program Files (x86)\;CMake Files\..\..\..\..\..\Program Files (x86)\freeglut\;CMake Files\..\..\..\..\..\Program Files (x86)\freeglut\lib\;CMake Files\..\..\..\..\..\Program Files (x86)\freeglut\lib\cmake\;CMake Files\..\..\..\..\..\Program Files (x86)\freeglut\lib\cmake\FreeGLUT\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tower">
+				<Option output="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/tower.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_DISABLE_ATEXIT_HACK"/>
+					<Add directory="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/FreeGLUT::freeglut"/>
+					<Add directory="C:/Program Files (x86)/freeglut/include"/>
+					<Add directory="D:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 tower"/>
+					<CompileFile command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tower/fast">
+				<Option output="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/tower.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_DISABLE_ATEXIT_HACK"/>
+					<Add directory="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/FreeGLUT::freeglut"/>
+					<Add directory="C:/Program Files (x86)/freeglut/include"/>
+					<Add directory="D:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 tower/fast"/>
+					<CompileFile command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/thomas/Desktop/C++/CPP_Learning_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/GL/displayable.hpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/GL/dynamic_object.hpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/GL/opengl_interface.cpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/GL/opengl_interface.hpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/GL/texture.hpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/aircraft.cpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/aircraft.hpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/aircraft_types.hpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/airport.hpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/airport_type.hpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/config.hpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/geometry.hpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/img/image.cpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/img/image.hpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/img/media_path.hpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/img/stb_image.h">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/main.cpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/runway.hpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/terminal.hpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/tower.cpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/tower.hpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/tower_sim.cpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/tower_sim.hpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/waypoint.hpp">
+			<Option target="tower"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/../../../../../Program Files (x86)/freeglut/lib/cmake/FreeGLUT/FreeGLUTConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Program Files (x86)\freeglut\lib\cmake\FreeGLUT\"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/../../../../../Program Files (x86)/freeglut/lib/cmake/FreeGLUT/FreeGLUTConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Program Files (x86)\freeglut\lib\cmake\FreeGLUT\"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/../../../../../Program Files (x86)/freeglut/lib/cmake/FreeGLUT/FreeGLUTTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Program Files (x86)\freeglut\lib\cmake\FreeGLUT\"/>
+		</Unit>
+		<Unit filename="C:/Users/thomas/Desktop/C++/CPP_Learning_Project/../../../../../Program Files (x86)/freeglut/lib/cmake/FreeGLUT/FreeGLUTTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Program Files (x86)\freeglut\lib\cmake\FreeGLUT\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

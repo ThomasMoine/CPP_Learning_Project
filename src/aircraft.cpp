@@ -88,7 +88,7 @@ void Aircraft::add_waypoint(const Waypoint& wp, const bool front)
     }
 }
 
-void Aircraft::move()
+bool Aircraft::move()
 {
     if (waypoints.empty())
     {
@@ -107,6 +107,7 @@ void Aircraft::move()
             if (waypoints.front().is_at_terminal())
             {
                 arrive_at_terminal();
+                already_past_terminal = true;
             }
             else
             {
@@ -131,14 +132,28 @@ void Aircraft::move()
             {
                 pos.z() -= SINK_FACTOR * (SPEED_THRESHOLD - speed_len);
             }
+            if (waypoints.empty() && already_past_terminal)
+            {
+                return false;
+            }
         }
 
         // update the z-value of the displayable structure
         GL::Displayable::z = pos.x() + pos.y();
     }
+
+    return true;
 }
 
-void Aircraft::display() const
+bool Aircraft::display() const
 {
-    type.texture.draw(project_2D(pos), { PLANE_TEXTURE_DIM, PLANE_TEXTURE_DIM }, get_speed_octant());
+    if (waypoints.empty() && !is_at_terminal && !is_on_ground() && already_past_terminal)
+    {
+        return false;
+    }
+    else
+    {
+        type.texture.draw(project_2D(pos), { PLANE_TEXTURE_DIM, PLANE_TEXTURE_DIM }, get_speed_octant());
+        return true;
+    }
 }

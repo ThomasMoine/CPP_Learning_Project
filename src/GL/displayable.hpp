@@ -18,7 +18,7 @@ public:
     Displayable(const float z_) : z { z_ } {}
     virtual ~Displayable() {}
 
-    virtual void display() const = 0;
+    virtual bool display() const = 0;
 
     float get_z() const { return z; }
 };

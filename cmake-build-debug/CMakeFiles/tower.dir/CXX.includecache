@@ -1,0 +1,116 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Program Files (x86)/freeglut/include/GL/freeglut.h
+freeglut_std.h
+C:/Program Files (x86)/freeglut/include/GL/freeglut_std.h
+freeglut_ext.h
+C:/Program Files (x86)/freeglut/include/GL/freeglut_ext.h
+
+C:/Program Files (x86)/freeglut/include/GL/freeglut_ext.h
+stdarg.h
+-
+freeglut_ucall.h
+C:/Program Files (x86)/freeglut/include/GL/freeglut_ucall.h
+
+C:/Program Files (x86)/freeglut/include/GL/freeglut_std.h
+windows.h
+-
+EGL/egl.h
+-
+GLES/gl.h
+-
+GLES2/gl2.h
+-
+OpenGL/gl.h
+-
+OpenGL/glu.h
+-
+GL/gl.h
+-
+GL/glu.h
+-
+stdlib.h
+-
+
+C:/Program Files (x86)/freeglut/include/GL/freeglut_ucall.h
+stdarg.h
+-
+stdlib.h
+-
+
+C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/GL/displayable.hpp
+displayable.hpp
+C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/GL/displayable.hpp
+vector
+-
+
+C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/GL/dynamic_object.hpp
+unordered_set
+-
+
+C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/GL/opengl_interface.cpp
+opengl_interface.hpp
+C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/GL/opengl_interface.hpp
+
+C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/GL/opengl_interface.hpp
+../config.hpp
+C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/config.hpp
+../geometry.hpp
+C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/geometry.hpp
+displayable.hpp
+C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/GL/displayable.hpp
+dynamic_object.hpp
+C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/GL/dynamic_object.hpp
+GL/freeglut.h
+-
+algorithm
+-
+cassert
+-
+functional
+-
+memory
+-
+set
+-
+string
+-
+unordered_map
+-
+unordered_set
+-
+vector
+-
+
+C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/config.hpp
+img/media_path.hpp
+C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/img/media_path.hpp
+stdexcept
+-
+
+C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/geometry.hpp
+algorithm
+-
+array
+-
+cassert
+-
+cmath
+-
+iostream
+-
+
+C:/Users/thomas/Desktop/C++/CPP_Learning_Project/src/img/media_path.hpp
+stdexcept
+-
+string
+-
+string_view
+-
+

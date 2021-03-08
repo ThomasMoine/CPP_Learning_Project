@@ -62,14 +62,15 @@ public:
 
     Tower& get_tower() { return tower; }
 
-    void display() const override { texture.draw(project_2D(pos), { 2.0f, 2.0f }); }
+    bool display() const override { texture.draw(project_2D(pos), { 2.0f, 2.0f }); return true;}
 
-    void move() override
+    bool move() override
     {
         for (auto& t : terminals)
         {
             t.move();
         }
+        return true;
     }
 
     friend class Tower;
